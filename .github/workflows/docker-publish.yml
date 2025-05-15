@@ -37,7 +37,7 @@ jobs:
 
     steps:
       - name: Pull Docker image
-        run: docker pull ghcr.io/${{ github.repository }}:latest
+        run: docker pull ghcr.io/angelina-grbchh/dockerized-app:latest
 
       - name: Run tests inside container
-        run: docker run ghcr.io/${{ github.repository }}:latest pytest
+        run: docker run ghcr.io/angelina-grbchh/dockerized-app:latest
