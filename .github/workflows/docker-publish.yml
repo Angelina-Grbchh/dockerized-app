@@ -29,7 +29,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/${{ github.repository }}:latest
+          tags: ghcr.io/angelina-grbchh/dockerized-app:latest
 
   test:
     runs-on: ubuntu-latest
